@@ -99,6 +99,6 @@ io.on("connection",(socket)=>{
 
 
 
-server.listen(8080, () => {
+server.listen(process.env.PORT, () => {
   console.log("Server running at port 8080");
 });
